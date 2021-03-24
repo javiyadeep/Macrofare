@@ -595,7 +595,7 @@ a {
 /* ---- News & Update Start ---- */
 .news-update {
     height: 1478px;
-    background-color: white;
+    background-color: #fff;
 }
 
 .news-update .container {
@@ -732,12 +732,58 @@ a {
 
 .news-update .subscribe .text p {
     color: var(--textcolor);
-    margin: 22px 0 0 0 ;
+    margin: 22px 0 0 0;
     text-align: center;
     font-size: 18px;
     font-family: var(--rubik);
     font-weight: 400;
 }
+
+.news-update .subscribe .content {
+    display: flex;
+    justify-content: center;
+}
+
+.news-update .subscribe .content .form {
+    display: flex;
+}
+
+.news-update .subscribe .content .form .search {
+    display: flex;
+    margin: 50px 30px 0 0;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px #00000017;
+}
+
+.news-update .subscribe .content .form .search img {
+    border: 2px solid #d9e2ec;
+    border-right: none;
+    background-color: #fff;
+    padding: 15px 0 15px 25px;
+    border-radius: 30px 0 0 30px;
+}
+
+.news-update .subscribe .content .form .search input[type=search] {
+    border: 2px solid #d9e2ec;
+    border-left: none;
+    width: 400px;
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 0 30px 30px 0;
+}
+
+.news-update .subscribe .content .form .button button {
+    color: #fff;
+    background-color: var(--textcolor);
+    margin: 50px 0 0 0;
+    padding: 18px 50px;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 500;
+    border: none;
+    border-radius: 30px;
+}
+
 /* ---- News & Update End ---- */
 
 
