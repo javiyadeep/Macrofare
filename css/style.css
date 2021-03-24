@@ -152,6 +152,7 @@ table {
     --rubik: 'Rubik', sans-serif;
     --robot: 'Roboto', sans-serif;
 }
+
 /* ---- Variable End ---- */
 
 
@@ -172,6 +173,7 @@ table {
 a {
     text-decoration: none;
 }
+
 /* ---- Global Css End ---- */
 
 
@@ -224,7 +226,7 @@ a {
 
 .navs .container .collapse ul li .button {
 
-    margin:0 13px ;
+    margin: 0 13px;
     /* padding: 14px 28px; */
 }
 
@@ -232,7 +234,7 @@ a {
     font-family: var(--rubik);
     font-weight: 500;
     color: white;
-    padding: 12px 28px ;
+    padding: 12px 28px;
     border-radius: 30px;
     background-color: #64c147;
 }
@@ -240,6 +242,7 @@ a {
 .navs .container .collapse ul li a i {
     color: var(--textcolor);
 }
+
 /* ---- Header End ---- */
 
 
@@ -365,7 +368,7 @@ a {
 }
 
 .hero .container .part1 .text .button {
-    margin: 54px 0 0 0 ;
+    margin: 54px 0 0 0;
 }
 
 .hero .container .part1 .text .button a {
@@ -377,6 +380,15 @@ a {
     font-family: var(--rubik);
     font-weight: 500;
 }
+
+
+
+
+
+
+
+
+
 
 
 
@@ -403,6 +415,35 @@ a {
 }
 
 .get-started .container .row .box .card {
-    /* background-color: red; */
     height: 200px;
+    display: grid;
+    place-items: center;
+    border: none;
+}
+
+.get-started .container .row .box .card .content {
+    display: grid;
+    place-items: center;
+}
+
+.get-started .container .row .box .card .content .image {
+    display: flex;
+    justify-content: center;
+}
+
+.get-started .container .row .box .card .content .image img {
+    margin: 20px 0 0 0;
+}
+
+.get-started .container .row .box .card .content p {
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 500;
+    line-height: 25px;
+    margin: 16px 0;
+    text-align: center;
+}
+
+.get-started .container .box-1 .card .content .image {
+    margin: 20px 0 0 0;
 }
