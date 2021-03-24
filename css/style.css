@@ -552,6 +552,7 @@ a {
 }
 
 .guides .container .video-content .part2 .text .text1 {
+    color: var(--textcolor);
     line-height: 28px;
     margin: 90px 0 0 0;
     font-size: 18px;
@@ -560,6 +561,7 @@ a {
 }
 
 .guides .container .video-content .part2 .text .text2 {
+    color: var(--textcolor);
     margin: 50px 0 0 0;
     font-size: 18px;
     font-family: var(--rubik);
@@ -567,6 +569,7 @@ a {
 }
 
 .guides .container .video-content .part2 .text .text3 {
+    color: var(--textcolor) ;
     margin: 40px 0 0 0;
     font-size: 18px;
     font-family: var(--rubik);
@@ -577,6 +580,115 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- News & Update Start ---- */
+.news-update {
+    height: 1478px;
+    background-color: white;
+}
+
+.news-update .container {
+    padding: 0;
+}
+
+.news-update .container .heading {
+    margin: 60px 0 15px 0;
+}
+
+.news-update .container .heading h4 {
+    color: var(--textcolor);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--anerair-bold);
+}
+
+.news-update .container .line {
+    background-color: #ffba00;
+    height: 3px;
+    width: 20px;
+    margin: auto;
+}
+
+.news-update .container .part1 {
+    margin: 40px 0;
+}
+
+.news-update .container .part2 {
+    margin: 40px 0;
+    padding: 40px 25px;
+}
+
+.news-update .container .part2 .text-box .txt1 {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 500;
+    font-family: var(--rubik);
+}
+
+.news-update .container .part2 .text-box .txt1 span {
+    font-weight: 800;
+}
+
+.news-update .container .part2 .text-box h3 {
+    margin: 30px 0;
+    color: var(--textcolor);
+    line-height: 35px;
+    font-size: 30px;
+    font-family: var(--anerair-bold);
+}
+
+.news-update .container .part2 .text-box .txt2 {
+    color: #99a4b4;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+    
+}
+
+.news-update .container .part2 .text-box .button {
+    margin: 30px 0 0 0;
+}
+
+.news-update .container .part2 .text-box .button a {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+/* ---- News & Update End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- News & Update End ---- */
+@media (max-width: 1199px) {
+    .news-update .container .part2 {
+        padding: 10px 10px;
+    }
+}
 
 
 @media (max-width: 991px) {
@@ -593,6 +705,10 @@ a {
         height: 1000px;
     }
 
+    .get-started .container .heading {
+        text-align: center;
+    }
+
     .guides .container .video-content .part1 {
         height: 350px;
         display: flex;
@@ -602,6 +718,15 @@ a {
     .guides .container .video-content .part2 {
         display: flex;
         justify-content: center;
+    }
+
+    .news-update .container .part1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    .news-update .container .part2  {
+        text-align: center;
     }
 
 }
