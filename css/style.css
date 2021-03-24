@@ -569,7 +569,7 @@ a {
 }
 
 .guides .container .video-content .part2 .text .text3 {
-    color: var(--textcolor) ;
+    color: var(--textcolor);
     margin: 40px 0 0 0;
     font-size: 18px;
     font-family: var(--rubik);
@@ -654,7 +654,7 @@ a {
     font-size: 18px;
     font-family: var(--rubik);
     font-weight: 400;
-    
+
 }
 
 .news-update .container .part2 .text-box .button {
@@ -666,6 +666,77 @@ a {
     font-size: 16px;
     font-family: var(--rubik);
     font-weight: 500;
+}
+
+.news-update .img-box .box .image {
+    margin: 15px 0;
+}
+
+.news-update .img-box .box .text-box .txt1 {
+    margin: 26px 0 0 0;
+    color: var(--textcolor);
+    font-size: 16px;
+    font-weight: 400;
+    font-family: var(--rubik);
+}
+
+.news-update .img-box .box .text-box .txt1 span {
+    font-weight: 700;
+}
+
+.news-update .img-box .box .text-box h3 {
+    margin: 20px 0 25px 0;
+    color: var(--textcolor);
+    line-height: 30px;
+    font-size: 24px;
+    font-family: var(--anerair-bold);
+}
+
+.news-update .img-box .box .text-box .txt2 {
+    color: #99a4b4;
+    line-height: 20px;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+
+}
+
+.news-update .img-box .box .text-box .button {
+    margin: 25px 0 0 0;
+}
+
+.news-update .img-box .box .text-box .button a {
+    color: var(--textcolor);
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+.news-update .subscribe .heading {
+    margin: 60px 0 15px 0;
+}
+
+.news-update .subscribe .heading h4 {
+    color: var(--textcolor);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--anerair-bold);
+}
+
+.news-update .subscribe .line {
+    background-color: #ffba00;
+    height: 3px;
+    width: 20px;
+    margin: auto;
+}
+
+.news-update .subscribe .text p {
+    color: var(--textcolor);
+    margin: 22px 0 0 0 ;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
 }
 /* ---- News & Update End ---- */
 
@@ -725,7 +796,7 @@ a {
         justify-content: center;
     }
 
-    .news-update .container .part2  {
+    .news-update .container .part2 {
         text-align: center;
     }
 
@@ -749,5 +820,19 @@ a {
 
     .guides .container .video-content {
         /* display: none; */
+    }
+}
+
+
+@media (max-width: 549px) {
+    .guides {
+        height: 1030px;
+    }
+}
+
+
+@media (max-width: 495px) {
+    .guides {
+        height: 1060px;
     }
 }
