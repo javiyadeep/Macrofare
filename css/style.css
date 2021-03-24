@@ -151,6 +151,8 @@ table {
     --textcolor: #19406a;
     --rubik: 'Rubik', sans-serif;
     --robot: 'Roboto', sans-serif;
+    --anerair-bold: 'Anerair-Bold', sans-serif;
+    --anerair-black: 'Anerair-Black', sans-serif;
 }
 
 /* ---- Variable End ---- */
@@ -161,7 +163,15 @@ table {
 
 
 
+@font-face {
+    font-family: Anerair-Bold;
+    src: url('../fonts/Metropolis/Metropolis-Bold.otf');
+}
 
+@font-face {
+    font-family: Anerair-Black;
+    src: url('../fonts/Metropolis/Metropolis-Black.otf');
+}
 
 
 
@@ -170,6 +180,10 @@ table {
 
 
 /* ---- Global Css Start ---- */
+.container {
+    width: 1140px;
+}
+
 a {
     text-decoration: none;
 }
@@ -335,6 +349,16 @@ a {
 
 
 
+
+
+
+
+
+
+
+
+
+/* ---- Hero Section Start ---- */
 .hero {
     width: 100%;
     height: 441px;
@@ -381,6 +405,7 @@ a {
     font-weight: 500;
 }
 
+/* ---- Hero Section End ---- */
 
 
 
@@ -393,6 +418,13 @@ a {
 
 
 
+
+
+
+/* ---- Get Started Stat ---- */
+.get-started {
+    height: 363px;
+}
 
 .get-started .container .heading {
     margin: 76px 0 0 0;
@@ -432,10 +464,11 @@ a {
 }
 
 .get-started .container .row .box .card .content .image img {
-    margin: 20px 0 0 0;
+    margin: 15px 0 0 0;
 }
 
 .get-started .container .row .box .card .content p {
+    color: var(--textcolor);
     font-size: 18px;
     font-family: var(--rubik);
     font-weight: 500;
@@ -445,5 +478,98 @@ a {
 }
 
 .get-started .container .box-1 .card .content .image {
-    margin: 20px 0 0 0;
+    margin: 25px 0 0 0;
 }
+
+/* ---- Get Started End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Guides Start ---- */
+.guides {
+    height: 825px;
+    background-color: #eef8fd;
+}
+
+.guides .container {
+    padding: 0;
+}
+
+.guides .container .heading {
+    margin: 60px 0 15px 0;
+}
+
+.guides .container .heading h4 {
+    color: var(--textcolor);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--anerair-bold);
+}
+
+.guides .container .line {
+    background-color: #ffba00;
+    height: 3px;
+    width: 20px;
+    margin: auto;
+}
+
+.guides .container .planning .text h3 {
+    color: var(--textcolor);
+    margin: 35px 0;
+    text-align: center;
+    font-size: 35px;
+    font-family: var(--anerair-bold);
+}
+
+
+.guides .container .video-content .part1 .image {
+    margin: 80px 0;
+}
+
+.guides .container .video-content .part1 .image img {
+    padding: 0;
+}
+
+.guides .container .video-content .part2 {
+    margin: 80px 0;
+}
+
+.guides .container .video-content .part2 .text {
+    margin: 0 25px;
+}
+
+.guides .container .video-content .part2 .text .text1 {
+    line-height: 28px;
+    margin: 90px 0 0 0;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+.guides .container .video-content .part2 .text .text2 {
+    margin: 50px 0 0 0;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+.guides .container .video-content .part2 .text .text3 {
+    margin: 40px 0 0 0;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+/* ---- Guides End ---- */
