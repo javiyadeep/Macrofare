@@ -803,10 +803,109 @@ a {
 
 
 
+/* ---- Recipes Start ---- */
+.recipes {
+    overflow: hidden;
+    height: 633px;
+    background-color: #eef8fd;
+}
+
+.recipes .container .heading {
+    margin: 60px 0 15px 0;
+}
+
+.recipes .container .heading h4 {
+    color: var(--textcolor);
+    font-size: 24px;
+    text-align: center;
+    font-family: var(--anerair-bold);
+}
+
+.recipes .container .line {
+    background-color: #ffba00;
+    height: 3px;
+    width: 20px;
+    margin: auto;
+}
+
+.recipes .container {
+    padding: 0;
+}
+
+.recipes .container .main-box {
+    margin: 40px 0;
+}
+
+.recipes .container .main-box .card {
+    height: 360px;
+    background-color: #fff;
+    border: none;
+}
+
+.recipes .container .main-box .card .image img {
+    width: 100%;
+}
+
+.recipes .container .main-box .card .text {
+    word-spacing: -1px;
+    letter-spacing: 0px;
+    padding: 15px 20px;
+}
+
+.recipes .container .main-box .card .text .txt1 {
+    color: var(--textcolor);
+    font-size: 18px;
+    font-family: var(--anerair-bold);
+}
+
+.recipes .container .main-box .card .text .txt2 {
+    color: var(--textcolor);
+    margin: 15px 0;
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+.recipes .container .more {
+    margin: 15px 0;
+    text-align: center;
+}
+
+.recipes .container .more a {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+/* ---- Recipes End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- News & Update End ---- */
 @media (max-width: 1199px) {
     .news-update .container .part2 {
         padding: 10px 10px;
+    }
+
+    .recipes {
+        height: 600px;
+    }
+
+    .recipes .container .main-box .card {
+        height: 320px;
     }
 }
 
@@ -853,8 +952,6 @@ a {
         text-align: center;
     }
 
-    .news-update .subscribe .content {}
-
     .news-update .subscribe .content .form {
         display: block;
         justify-content: center;
@@ -886,6 +983,14 @@ a {
         transform: scale(0.8);
     }
 
+    .recipes {
+        height: 550px;
+    }
+
+    .recipes .container .main-box .card {
+        height: 280px;
+    }
+
 }
 
 
@@ -902,6 +1007,28 @@ a {
 
     .news-update .subscribe .content {
         transform: scale(0.6);
+    }
+
+    .recipes {
+        height: 1400px;
+    }
+
+    .recipes .container .main-box .card {
+        background-color: #eef8fd;
+        height: 320px;
+    }
+
+    .recipes .container .main-box .card .image {
+        display: flex;
+        justify-content: center;
+    }
+
+    .recipes .container .main-box .card .image img {
+        width: auto;
+    }
+
+    .recipes .container .main-box .card .text {
+        text-align: center;
     }
 }
 
