@@ -360,6 +360,7 @@ a {
 
 /* ---- Hero Section Start ---- */
 .hero {
+    overflow: hidden;
     width: 100%;
     height: 441px;
     background-color: #f0f3f4;
@@ -423,6 +424,7 @@ a {
 
 /* ---- Get Started Stat ---- */
 .get-started {
+    overflow: hidden;
     height: 363px;
 }
 
@@ -594,6 +596,7 @@ a {
 
 /* ---- News & Update Start ---- */
 .news-update {
+    overflow: hidden;
     height: 1478px;
     background-color: #fff;
 }
