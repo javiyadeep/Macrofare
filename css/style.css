@@ -180,9 +180,9 @@ table {
 
 
 /* ---- Global Css Start ---- */
-.container {
+/* .container {
     width: 1140px;
-}
+} */
 
 a {
     text-decoration: none;
@@ -223,7 +223,7 @@ a {
 }
 
 .navs .container .navbar .container-fluid {
-    padding: 0;
+    /* padding: 0; */
 }
 
 .navs .container .collapse {
@@ -499,6 +499,7 @@ a {
 
 /* ---- Guides Start ---- */
 .guides {
+    overflow: hidden;
     height: 825px;
     background-color: #eef8fd;
 }
@@ -573,3 +574,55 @@ a {
 }
 
 /* ---- Guides End ---- */
+
+
+
+
+
+@media (max-width: 991px) {
+    .hero .container .part1 {
+        text-align: center;
+        justify-content: center;
+    }
+
+    .hero .container .part2 {
+        display: none;
+    }
+
+    .guides {
+        height: 1000px;
+    }
+
+    .guides .container .video-content .part1 {
+        height: 350px;
+        display: flex;
+        justify-content: center;
+    }
+
+    .guides .container .video-content .part2 {
+        display: flex;
+        justify-content: center;
+    }
+
+}
+
+
+
+
+@media (max-width: 767px) {
+    .get-started {
+        height: 770px;
+    }
+}
+
+
+
+@media (max-width: 575px) {
+    .get-started {
+        height: 1360px;
+    }
+
+    .guides .container .video-content {
+        /* display: none; */
+    }
+}
