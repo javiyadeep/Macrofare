@@ -215,7 +215,6 @@ hr {
 
 .navs .container {
     height: 90px;
-    /* margin: auto; */
     padding: 0;
 }
 
@@ -1061,7 +1060,7 @@ hr {
 
 /* ---- Footer Start ---- */
 footer {
-    overflow: hidden;
+    /* overflow: hidden; */
     height: 459px;
     background-color: #fff;
 }
@@ -1089,11 +1088,20 @@ footer .container .box2 .menu ul li .main {
     font-weight: 500;
 }
 
+footer .container .box2 .menu ul li .main:hover {
+    color: var(--textcolor);
+}
+
 footer .container .box2 .menu ul li a {
     color: var(--textcolor);
     font-size: 16px;
     font-family: var(--rubik);
     font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .container .box2 .menu ul li a:hover {
+    color: var(--green);
 }
 
 footer .container .box3 {
@@ -1116,6 +1124,11 @@ footer .container .box3 .menu2 ul li a {
     font-size: 16px;
     font-family: var(--rubik);
     font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .container .box3 .menu2 ul li a:hover {
+    color: var(--green);
 }
 
 
@@ -1131,9 +1144,7 @@ footer .container .box4 .text h5 {
     font-weight: 500;
 }
 
-footer .container .box4 .content .form {
-    padding: 0 20px;
-}
+
 
 footer .container .box4 .content .form .search {
     display: flex;
@@ -1195,6 +1206,37 @@ footer .container .box4 .icon ul li .active {
 
 footer .container .box4 .icon ul li a:hover {
     color: var(--textcolor);
+}
+
+footer .container .row-tc .part1 {
+    padding: 0;
+}
+
+footer .container .row-tc {
+    margin: 50px 0;
+}
+
+footer .container .row-tc .text p {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+footer .container .row-tc .part2 .menu ul {
+    text-align: center;
+}
+
+footer .container .row-tc .part2 .menu ul li {
+    display: inline-block;
+}
+
+footer .container .row-tc .part2 .menu ul li a {
+    color: var(--textcolor);
+    padding: 0 8px;
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 400;
 }
 
 
@@ -1261,6 +1303,10 @@ footer .container .box4 .icon ul li a:hover {
 @media (max-width: 991px) {
     hr {
         margin: 80px 0 0 0;
+    }
+
+    .navs .container {
+        padding: 0 15px;
     }
 
     .hero .container .part1 {
@@ -1475,6 +1521,10 @@ footer .container .box4 .icon ul li a:hover {
 
     .quiz .container .box3 .txt2 p {
         text-align: center;
+    }
+
+    footer .container .box4 .content .form {
+        padding: 0 20px;
     }
 }
 
