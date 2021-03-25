@@ -149,6 +149,7 @@ table {
 /* ---- Variable Start ---- */
 :root {
     --textcolor: #19406a;
+    --green: #64c147;
     --rubik: 'Rubik', sans-serif;
     --robot: 'Roboto', sans-serif;
     --anerair-bold: 'Anerair-Bold', sans-serif;
@@ -180,10 +181,6 @@ table {
 
 
 /* ---- Global Css Start ---- */
-/* .container {
-    width: 1140px;
-} */
-
 a {
     text-decoration: none;
 }
@@ -213,7 +210,7 @@ a {
 
 .navs .container {
     height: 90px;
-    margin: auto;
+    /* margin: auto; */
     padding: 0;
 }
 
@@ -223,7 +220,7 @@ a {
 }
 
 .navs .container .navbar .container-fluid {
-    /* padding: 0; */
+    padding: 0;
 }
 
 .navs .container .collapse {
@@ -248,101 +245,24 @@ a {
     font-family: var(--rubik);
     font-weight: 500;
     color: white;
-    padding: 12px 28px;
+    padding: 10px 28px;
     border-radius: 30px;
     background-color: #64c147;
+    transition: all 0.5s ease-in-out;
 }
+
+.navs .container .collapse ul li .button a:hover {
+    background-color: var(--textcolor);
+    color: #fff;
+}
+
+
 
 .navs .container .collapse ul li a i {
     color: var(--textcolor);
 }
 
 /* ---- Header End ---- */
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* ---- Hero Section Start ---- */
-/* .hero-section {
-    position: relative;
-}
-
-.hero {
-    overflow: hidden;
-    width: 100%;
-    height: 441px;
-    background-color: #f0f3f4;
-}
-
-.hero .container .part1 {
-    padding: 0;
-}
-
-.hero .container .part1 {
-    height: 386px;
-    display: flex;
-    align-items: center;
-}
-
-.hero .container .part1 .text h2 {
-    color: var(--textcolor);
-    line-height: 40px;
-    font-size: 37px;
-    font-family: sans-serif;
-    font-weight: bold;
-}
-
-.hero .container .part1 .text p {
-    color: var(--textcolor);
-    margin: 30px 0;
-    font-size: 19px;
-    line-height: 22px;
-    font-family: sans-serif;
-}
-
-.hero .container .part1 .text .button {
-    margin: 54px 0 0 0 ;
-}
-
-.hero .container .part1 .text .button a {
-    color: #fff;
-    background-color: var(--textcolor);
-    padding: 16px 30px;
-    border-radius: 30px;
-    font-size: 18px;
-    font-family: var(--rubik);
-    font-weight: 500;
-}
-
-.hero .container .part2 .image {
-    height: 441px;
-    position: relative;
-}
-
-.hero .container .part2 .image img {
-    z-index: 9999;
-    position: absolute;
-    left: 240px;
-}
-
-.hero-section .img-2 img {
-    position: absolute;
-    left: 515px;
-    top: 98px;
-} */
-
-/* ---- Hero Section End ---- */
 
 
 
@@ -404,6 +324,11 @@ a {
     font-size: 18px;
     font-family: var(--rubik);
     font-weight: 500;
+    transition: all 0.5s ease-in-out;
+}
+
+.hero .container .part1 .text .button a:hover {
+    background-color: var(--green);
 }
 
 /* ---- Hero Section End ---- */
@@ -785,6 +710,11 @@ a {
     font-weight: 500;
     border: none;
     border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+.news-update .subscribe .content .form .button button:hover {
+    background-color: var(--green);
 }
 
 /* ---- News & Update End ---- */
