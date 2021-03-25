@@ -185,6 +185,11 @@ a {
     text-decoration: none;
 }
 
+hr {
+    margin: 130px 0 0 0;
+    color: #eef8fd;
+}
+
 /* ---- Global Css End ---- */
 
 
@@ -1054,6 +1059,156 @@ a {
 
 
 
+/* ---- Footer Start ---- */
+footer {
+    height: 459px;
+    background-color: #fff;
+}
+
+footer .container {
+    padding: 0;
+}
+
+footer .container .box1 {
+    margin: 60px 0 0 0;
+}
+
+footer .container .box2 {
+    margin: 45px 0 0 0;
+}
+
+footer .container .box2 .menu ul li {
+    margin: 30px 0;
+}
+
+footer .container .box2 .menu ul li .main {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+footer .container .box2 .menu ul li a {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+footer .container .box3 {
+    margin: 90px 0 0 0;
+}
+
+footer .container .box3 .menu2 ul li {
+    margin: 30px 0;
+}
+
+footer .container .box3 .menu2 ul li .main {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+footer .container .box3 .menu2 ul li a {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+
+
+footer .container .box4 {
+    margin: 75px 0 0 0;
+}
+
+footer .container .box4 .text h5 {
+    color: var(--textcolor);
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+footer .container .box4 .content .form .search {
+    display: flex;
+    margin: 26px 0px 0 0;
+    border-radius: 30px;
+    box-shadow: 0 4px 12px #00000017;
+}
+
+footer .container .box4 .content .form .search img {
+    border: 2px solid #d9e2ec;
+    border-right: none;
+    background-color: #fff;
+    padding: 12px 0 12px 25px;
+    border-radius: 30px 0 0 30px;
+}
+
+footer .container .box4 .content .form .search input[type=search] {
+    border: 2px solid #d9e2ec;
+    border-left: none;
+    width: 500px;
+    background-color: #fff;
+    padding: 15px 15px;
+    border-radius: 0 30px 30px 0;
+}
+
+footer .container .box4 .content .form .button button {
+    color: #fff;
+    background-color: var(--textcolor);
+    margin: 20px 0 0 0;
+    padding: 14px 30px;
+    font-size: 16px;
+    font-family: var(--rubik);
+    font-weight: 400;
+    border: none;
+    border-radius: 30px;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .container .box4 .content .form .button button:hover {
+    background-color: var(--green);
+}
+
+footer .container .box4 .icon {
+    margin: 40px 0 0 0;
+}
+
+footer .container .box4 .icon ul li {
+    display: inline-block;
+}
+
+footer .container .box4 .icon ul li a {
+    color: #bac5d2;
+    padding: 0 6px;
+}
+
+footer .container .box4 .icon ul li .active {
+    color: var(--textcolor);
+}
+
+footer .container .box4 .icon ul li a:hover {
+    color: var(--textcolor);
+}
+
+
+/* ---- Footer End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* ---- Media Start ---- */
 @media (max-width: 1199px) {
     .guides .container .video-content .part2 .text .text1 {
@@ -1099,6 +1254,10 @@ a {
 
 
 @media (max-width: 991px) {
+    hr {
+        margin: 80px 0 0 0;
+    }
+
     .hero .container .part1 {
         text-align: center;
         justify-content: center;
