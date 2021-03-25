@@ -1060,7 +1060,7 @@ hr {
 
 /* ---- Footer Start ---- */
 footer {
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 459px;
     background-color: #fff;
 }
@@ -1213,7 +1213,11 @@ footer .container .row-tc .part1 {
 }
 
 footer .container .row-tc {
-    margin: 50px 0;
+    margin: 30px 0;
+}
+
+footer .container .row-tc .text {
+    margin: 20px 0;
 }
 
 footer .container .row-tc .text p {
@@ -1221,6 +1225,10 @@ footer .container .row-tc .text p {
     font-size: 16px;
     font-family: var(--rubik);
     font-weight: 400;
+}
+
+footer .container .row-tc .menu {
+    margin: 20px 0;
 }
 
 footer .container .row-tc .part2 .menu ul {
@@ -1296,6 +1304,10 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .quiz .container .box3 .txt2 h5 {
         margin: 120px 0 0 0;
+    }
+
+    footer .container .row-tc .part2 .menu ul li a {
+        padding: 0 2px;
     }
 }
 
@@ -1416,6 +1428,23 @@ footer .container .row-tc .part2 .menu ul li a {
     .quiz .container .box3 .txt2 h5 {
         margin: 50px 0 0 0;
     }
+
+    footer {
+        height: 800px;
+    }
+
+    footer .container .box1 {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .container .row-tc .menu {
+        margin: 0;
+    }
+
+    footer .container .row-tc .text p {
+        text-align: center;
+    }
 }
 
 
@@ -1523,9 +1552,37 @@ footer .container .row-tc .part2 .menu ul li a {
         text-align: center;
     }
 
+    footer {
+        height: 1180px;
+    }
+
     footer .container .box4 .content .form {
         padding: 0 20px;
     }
+
+    footer .container .box2 .menu {
+        text-align: center;
+    }
+
+
+    footer .container .box3 {
+        margin: 70px 0 0 0;
+        text-align: center;
+    }
+
+    footer .container .box4 .text h5 {
+        text-align: center;
+    }
+
+    footer .container .box4 .content .form .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .container .box4 .icon {
+        text-align: center;
+    }
+
 }
 
 
@@ -1576,6 +1633,12 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .guides .container .video-content .part2 .text .text1 {
         margin: 70px 0 0 0;
+    }
+}
+
+@media (max-width: 478px) {
+    footer {
+        height: 1200px;
     }
 }
 
@@ -1650,6 +1713,10 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .guides .container .video-content .part2 .text .text1 {
         margin: 0px 0 0 0;
+    }
+
+    footer {
+        height: 1210px;
     }
 }
 
