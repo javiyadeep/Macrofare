@@ -753,7 +753,7 @@ a {
 
 .news-update .subscribe .content .form .search {
     display: flex;
-    margin: 50px 30px 0 0;
+    margin: 50px 40px 0 0;
     border-radius: 30px;
     box-shadow: 0 4px 12px #00000017;
 }
@@ -779,7 +779,7 @@ a {
     color: #fff;
     background-color: var(--textcolor);
     margin: 50px 0 0 0;
-    padding: 18px 50px;
+    padding: 18px 30px;
     font-size: 18px;
     font-family: var(--rubik);
     font-weight: 500;
@@ -894,7 +894,64 @@ a {
 
 
 
-/* ---- News & Update End ---- */
+/* ---- Star Raiting Start ---- */
+.star {
+    overflow: hidden;
+    height: 422px;
+    background-color: #fff;
+}
+
+.star .image {
+    display: flex;
+    justify-content: center;
+    margin: 70px 0 0 0;
+}
+
+.star .text {
+    padding: 40px 180px 0 180px;
+}
+
+.star .text p {
+    color: var(--textcolor);
+    text-align: center;
+    line-height: 25px;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 400;
+}
+
+.star .text h5 {
+    color: var(--textcolor);
+    margin: 30px 0 0 0;
+    text-align: center;
+    font-size: 18px;
+    font-family: var(--rubik);
+    font-weight: 500;
+}
+
+.star .icon {
+    margin: 15px 0 0 0;
+    display: flex;
+    justify-content: center;
+}
+
+/* ---- Star Raiting End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Media Start ---- */
 @media (max-width: 1199px) {
     .news-update .container .part2 {
         padding: 10px 10px;
@@ -906,6 +963,10 @@ a {
 
     .recipes .container .main-box .card {
         height: 320px;
+    }
+
+    .star .text {
+        padding: 40px 100px 0 100px;
     }
 }
 
@@ -991,6 +1052,9 @@ a {
         height: 280px;
     }
 
+    .star .text {
+        padding: 40px 50px 0 50px;
+    }
 }
 
 
@@ -1030,6 +1094,10 @@ a {
     .recipes .container .main-box .card .text {
         text-align: center;
     }
+
+    .star .text {
+        padding: 40px 0px 0 0px;
+    }
 }
 
 
@@ -1037,10 +1105,6 @@ a {
 @media (max-width: 575px) {
     .get-started {
         height: 1360px;
-    }
-
-    .guides .container .video-content {
-        /* display: none; */
     }
 }
 
@@ -1056,6 +1120,15 @@ a {
 }
 
 
+
+@media (max-width: 549px) {
+    .star {
+        height: 450px;
+    }
+}
+
+
+
 @media (max-width: 495px) {
     .guides {
         height: 1060px;
@@ -1065,6 +1138,14 @@ a {
         height: 2790px;
     }
 }
+
+
+@media (max-width: 428px) {
+    .star {
+        height: 480px;
+    }
+}
+
 
 
 @media (max-width: 384px) {
@@ -1078,8 +1159,18 @@ a {
 }
 
 
+@media (max-width: 361px) {
+    .star {
+        height: 510px;
+    }
+}
+
+
+
 @media (max-width: 320px) {
     .news-update {
         height: 2720px;
     }
 }
+
+/* ---- Media Start ---- */
