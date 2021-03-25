@@ -1061,7 +1061,7 @@ hr {
 
 /* ---- Footer Start ---- */
 footer {
-    /* overflow: hidden; */
+    overflow: hidden;
     height: 459px;
     background-color: #fff;
 }
