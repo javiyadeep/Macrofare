@@ -433,6 +433,7 @@ hr {
     overflow: hidden;
     height: 825px;
     background-color: #eef8fd;
+    background: url("../images/guides/bg.jpg") no-repeat center;
 }
 
 .guides .container {
@@ -467,7 +468,13 @@ hr {
 
 
 .guides .container .video-content .part1 .image {
-    margin: 80px 0;
+    margin: 40px 0;
+}
+
+.guides .container .video-content .part1 .image .toggle {
+    position: relative;
+    top: -20px;
+    left: 480px;
 }
 
 .guides .container .video-content .part1 .image img {
@@ -528,6 +535,7 @@ hr {
     overflow: hidden;
     height: 1478px;
     background-color: #fff;
+    background: url("../images/news&update/bg.jpg") no-repeat center;
 }
 
 .news-update .container {
@@ -742,6 +750,7 @@ hr {
     overflow: hidden;
     height: 633px;
     background-color: #eef8fd;
+    background: #eef8fd url("../images/recipes/bg2.png") no-repeat center;
 }
 
 .recipes .container .heading {
@@ -1266,6 +1275,12 @@ footer .container .row-tc .part2 .menu ul li a {
 
 /* ---- Media Start ---- */
 @media (max-width: 1199px) {
+    .guides .container .video-content .part1 .image .toggle {
+        position: relative;
+        top: -20px;
+        left: 400px;
+    }
+
     .guides .container .video-content .part2 .text .text1 {
         margin: 40px 0 0 0;
     }
@@ -1336,6 +1351,10 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .get-started .container .heading {
         text-align: center;
+    }
+
+    .guides .container .video-content .part1 .image .toggle {
+        display: none;
     }
 
     .guides .container .video-content .part1 {
