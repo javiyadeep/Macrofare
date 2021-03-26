@@ -1312,7 +1312,8 @@ footer .container .box4 .content .form .search img {
 footer .container .box4 .content .form .search input[type=email] {
     border: 2px solid #d9e2ec;
     border-left: none;
-    width: 500px;
+    /* width: 500px; */
+    width: 100%;
     background-color: #fff;
     padding: 15px 15px;
     border-radius: 0 30px 30px 0;
@@ -1511,6 +1512,18 @@ footer .container .row-tc .part2 .menu ul li a:hover {
         display: none;
     }
 
+    .get-started {
+        height: 680px;
+    }
+
+    .get-started .container .row .box .card {
+        height: 160px;
+    }
+
+    .get-started .container .row-icon {
+        margin: 20px 0 0 0;
+    }
+
     .guides {
         height: 1000px;
     }
@@ -1643,6 +1656,19 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     footer .container .row-tc .text p {
         text-align: center;
     }
+
+    footer .container .box4 .text h5 {
+        text-align: center;
+    }
+
+    footer .container .box4 .content .form .button {
+        display: flex;
+        justify-content: center;
+    }
+
+    footer .container .box4 .icon {
+        text-align: center;
+    }
 }
 
 
@@ -1654,11 +1680,11 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .get-started {
-        height: 770px;
+        height: 680px;
     }
 
     .get-started .container .row .box .card {
-        height: 190px;
+        height: 160px;
     }
 
     .news-update {
@@ -1756,7 +1782,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     footer {
-        height: 1180px;
+        height: 800px;
     }
 
     footer .container .box4 .content .form {
@@ -1800,7 +1826,11 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .get-started {
-        height: 1360px;
+        height: 1170px;
+    }
+
+    .get-started .container .row-icon {
+        margin: 0px 0 0 0;
     }
 
     .news-update .subscribe .content {
@@ -1851,8 +1881,25 @@ footer .container .row-tc .part2 .menu ul li a:hover {
         padding: 0 20px;
     }
 
+    footer {
+        height: 1100px;
+    }
+
     footer .container .row-tc .part2 .menu ul {
         padding: 0 20px;
+    }
+
+    footer .container .box3 {
+        margin: 0 0 0 0;
+        text-align: center;
+    }
+
+    footer .container .box4 {
+        margin: 30px 0 0 0;
+    }
+
+    footer .container .row-tc {
+        margin: 35px 0 60px 0;
     }
 }
 
@@ -1897,7 +1944,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 @media (max-width: 478px) {
     footer {
-        height: 1200px;
+        height: 1100px;
     }
 }
 
@@ -2019,7 +2066,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     footer {
-        height: 1210px;
+        height: 1130px;
     }
 }
 
