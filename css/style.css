@@ -1549,6 +1549,10 @@ footer .container .row-tc .part2 .menu ul li a {
         height: 770px;
     }
 
+    .get-started .container .row .box .card {
+        height: 190px;
+    }
+
     .news-update {
         height: 2825px;
     }
@@ -1586,11 +1590,12 @@ footer .container .row-tc .part2 .menu ul li a {
 
 
     .quiz {
-        height: 1090px;
+        height: 1060px;
     }
 
     .quiz .container .row-main .box1 {
         padding: 0;
+        margin: 80px 0 0 0;
     }
 
     .quiz .container .row-main .box1 .txt1 {
