@@ -438,7 +438,7 @@ hr {
     overflow: hidden;
     height: 825px;
     background-color: #eef8fd;
-    background: url("../images/guides/bg.jpg") no-repeat center;
+    background: #eef8fd url("../images/guides/bg1.png") no-repeat center;
 }
 
 .guides .container {
