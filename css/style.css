@@ -1683,12 +1683,68 @@ footer .container .row-tc .part2 .menu ul li a {
 
 
 @media (max-width: 575px) {
+    .hero .container .part1 .text h2 {
+        padding: 0 20px;
+    }
+
+    .hero .container .part1 .text p {
+        padding: 0 20px;
+    }
+
     .get-started {
         height: 1360px;
     }
 
     .news-update .subscribe .content {
         transform: scale(0.7);
+    }
+
+    .guides .container .video-content .part1 .image img {
+        padding: 0 20px;
+    }
+
+    .news-update .container .part1 .image {
+        padding: 0 20px;
+    }
+
+    .news-update .container .part2 .text-box .txt2 {
+        padding: 0 20px;
+    }
+
+    .news-update .img-box .box .text-box .txt2 {
+        padding: 0 20px;
+    }
+
+    .news-update .subscribe .heading h4 {
+        padding: 0 20px;
+    }
+
+    .news-update .subscribe .text p {
+        padding: 0 20px;
+    }
+
+    .star .text p {
+        padding: 0 20px;
+    }
+
+    .quiz .container .box1 .txt1 p {
+        padding: 0 20px;
+    }
+
+    .quiz .container .box1 .txt2 p {
+        padding: 0 20px;
+    }
+
+    .quiz .container .box3 .txt1 p {
+        padding: 0 20px;
+    }
+
+    .quiz .container .box3 .txt2 p {
+        padding: 0 20px;
+    }
+
+    footer .container .row-tc .part2 .menu ul {
+        padding: 0 20px;
     }
 }
 
@@ -1739,12 +1795,44 @@ footer .container .row-tc .part2 .menu ul li a {
 
 
 @media (max-width: 471px) {
+    .get-started .container .heading p {
+        padding: 0 10px;
+    }
+
+    .guides .container .planning .text h3 {
+        padding: 0 10px;
+    }
+
+    .news-update .container .part2 .text-box h3 {
+        padding: 0 10px;
+    }
+
+    .news-update .img-box .box .text-box h3 {
+        padding: 0 10px;
+    }
+
     .quiz {
         height: 1110px;
     }
 
     .guides .container .video-content .part2 .text .text1 {
         margin: 50px 0 0 0;
+    }
+
+    .recipes .container .main-box .card .image img {
+        padding: 0 10px;
+    }
+
+    .news-update .container .image {
+        padding: 0 10px;
+    }
+
+    .news-update .container .part1 .image {
+        padding: 0 10px;
+    }
+
+    footer .container .row-tc .text p {
+        padding: 0 10px;
     }
 }
 
@@ -1797,6 +1885,10 @@ footer .container .row-tc .part2 .menu ul li a {
     .guides .container .video-content .part1 {
         height: 260px;
     }
+
+    .star {
+        height: 540px;
+    }
 }
 
 
@@ -1806,8 +1898,16 @@ footer .container .row-tc .part2 .menu ul li a {
         height: 2720px;
     }
 
+    .guides {
+        height: 980px;
+    }
+
     .guides .container .video-content .part2 .text .text1 {
         margin: 0px 0 0 0;
+    }
+
+    .quiz {
+        height: 1130px;
     }
 
     footer {
