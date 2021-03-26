@@ -284,7 +284,6 @@ hr {
 
 /* ---- Hero Section Start ---- */
 .hero {
-    overflow: hidden;
     width: 100%;
     height: 441px;
     background-color: #f0f3f4;
@@ -333,6 +332,12 @@ hr {
 
 .hero .container .part1 .text .button a:hover {
     background-color: var(--green);
+}
+
+.hero .container .part2 {
+    position: relative;
+    z-index: 99999999999999;
+    right: 80px;
 }
 
 /* ---- Hero Section End ---- */
@@ -1334,6 +1339,10 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .navs .container {
         padding: 0 15px;
+    }
+
+    .hero {
+        overflow: hidden;
     }
 
     .hero .container .part1 {
