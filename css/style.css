@@ -164,6 +164,15 @@ table {
 
 
 
+
+
+
+
+
+
+
+
+/* ---- Font Face Start ---- */
 @font-face {
     font-family: Anerair-Bold;
     src: url('../fonts/Metropolis/Metropolis-Bold.otf');
@@ -173,6 +182,16 @@ table {
     font-family: Anerair-Black;
     src: url('../fonts/Metropolis/Metropolis-Black.otf');
 }
+
+/* ---- Font Face End ---- */
+
+
+
+
+
+
+
+
 
 
 
@@ -199,6 +218,75 @@ input:focus {
 
 
 /* ---- Global Css End ---- */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ---- Prelorder Start ---- */
+.loader_bg {
+    position: fixed;
+    z-index: 99999;
+    background: white;
+    width: 100%;
+    height: 100%;
+}
+
+.loader {
+    border: 0 solid transparent;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    position: absolute;
+    top: calc(50vh - 75px);
+    left: calc(50vw - 75px);
+}
+
+.loader::before,
+.loader::after {
+    content: '';
+    border: 1em solid var(--textcolor);
+    border-radius: 50%;
+    width: inherit;
+    height: inherit;
+    position: absolute;
+    top: 0;
+    left: 0;
+    animation: loader 2s linear infinite;
+    opacity: 0;
+}
+
+.loader::before {
+    animation-delay: .5s;
+}
+
+@keyframes loader {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+
+    50% {
+        opacity: 1;
+    }
+
+    100% {
+        transform: scale(1);
+        opacity: 0;
+    }
+}
+
+/* ---- Prelorder End ---- */
 
 
 
@@ -254,6 +342,10 @@ input:focus {
     color: var(--green);
 }
 
+.navs .container .collapse ul li a:hover i {
+    color: var(--green);
+}
+
 .navs .container .collapse ul .option-button {
     position: relative;
 }
@@ -288,6 +380,7 @@ input:focus {
 
 .navs .container .collapse ul li a i {
     color: var(--textcolor);
+    transition: all 0.5s ease-in-out;
 }
 
 /* ---- Header End ---- */
@@ -297,11 +390,21 @@ input:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+/* ---- Background Img Start ---- */
 .background-img {
     background: url("../images/hero/hero-1.png") no-repeat center 0px;
 }
 
-
+/* ---- Background Img End ---- */
 
 
 
@@ -741,7 +844,7 @@ input:focus {
     border-radius: 30px 0 0 30px;
 }
 
-.news-update .subscribe .content .form .search input[type=search] {
+.news-update .subscribe .content .form .search input[type=email] {
     border: 2px solid #d9e2ec;
     border-left: none;
     width: 400px;
@@ -1206,7 +1309,7 @@ footer .container .box4 .content .form .search img {
     border-radius: 30px 0 0 30px;
 }
 
-footer .container .box4 .content .form .search input[type=search] {
+footer .container .box4 .content .form .search input[type=email] {
     border: 2px solid #d9e2ec;
     border-left: none;
     width: 500px;
@@ -1290,6 +1393,11 @@ footer .container .row-tc .part2 .menu ul li a {
     font-size: 16px;
     font-family: var(--rubik);
     font-weight: 400;
+    transition: all 0.5s ease-in-out;
+}
+
+footer .container .row-tc .part2 .menu ul li a:hover {
+    color: var(--green);
 }
 
 

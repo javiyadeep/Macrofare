@@ -66,6 +66,29 @@
 <body>
 
 
+
+
+
+    <!-- Prelorder Start -->
+    <div class="loader_bg">
+        <div class="loader"></div>
+    </div>
+    <!-- Prelorder End -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
     <!-- Header Start -->
     <header class="navs">
         <h2 class="d-none">deep</h2>
@@ -454,16 +477,16 @@
                 </div>
 
                 <div class="content">
-                    <div class="form">
+                    <form class="form">
                         <div class="search">
                             <img src="./images/icon/email.png" alt="">
-                            <input type="search" placeholder="Email">
+                            <input type="email" placeholder="Email" required>
                         </div>
                         <div class="button">
                             <button type="submit">Subscribe</button>
                         </div>
 
-                    </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -730,16 +753,16 @@
                     </div>
 
                     <div class="content">
-                        <div class="form">
+                        <form class="form">
                             <div class="search">
                                 <img src="./images/icon/email.png" alt="">
-                                <input type="search">
+                                <input type="email" required>
                             </div>
                             <div class="button">
                                 <button type="submit">Subscribe</button>
                             </div>
 
-                        </div>
+                        </form>
                     </div>
 
                     <div class="icon">
@@ -793,6 +816,25 @@
 
 
 
+    <!-- Prelorder Script Start -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+    <script>
+        setTimeout(function () {
+            $('.loader_bg').fadeToggle();
+        }, 5000);
+    </script>
+    <!-- Prelorder Script End -->
+
+
+
+
+
+
+
+
+
+
 
     <!-- Aos Script Start -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
@@ -800,6 +842,13 @@
         AOS.init();
     </script>
     <!-- Aos Script End -->
+
+
+
+
+
+
+
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js"
