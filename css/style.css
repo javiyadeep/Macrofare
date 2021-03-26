@@ -208,6 +208,8 @@ hr {
 
 /* ---- Header Start ---- */
 .navs {
+    position: relative;
+    z-index: 999;
     width: 100%;
     height: 90px;
     background-color: #fff;
@@ -225,6 +227,7 @@ hr {
 
 .navs .container .navbar .container-fluid {
     padding: 0;
+    border-radius: 15px;
 }
 
 .navs .container .collapse {
@@ -239,8 +242,21 @@ hr {
     font-weight: 400;
 }
 
-.navs .container .collapse ul li .button {
+.navs .container .collapse ul li a:hover {
+    color: var(--green);
+}
 
+.navs .container .collapse ul .option-button {
+    position: relative;
+}
+
+.navs .container .collapse ul .option-button img {
+    position: absolute;
+    right: 5px;
+    top: 35px;
+}
+
+.navs .container .collapse ul li .button {
     margin: 0 13px;
     /* padding: 14px 28px; */
 }
@@ -273,8 +289,9 @@ hr {
 
 
 
-
-
+.background-img {
+    background: url("../images/hero/hero-1.png") no-repeat center 0px;
+}
 
 
 
@@ -286,7 +303,7 @@ hr {
 .hero {
     width: 100%;
     height: 441px;
-    background-color: #f0f3f4;
+    /* background-color: #f0f3f4; */
 }
 
 .hero .container .part1 {
@@ -316,7 +333,14 @@ hr {
 }
 
 .hero .container .part1 .text .button {
+    position: relative;
     margin: 54px 0 0 0;
+}
+
+.hero .container .part1 .text .button img {
+    position: absolute;
+    top: 34px;
+    left: -10px;
 }
 
 .hero .container .part1 .text .button a {
@@ -383,6 +407,7 @@ hr {
 }
 
 .get-started .container .row .box .card {
+    background: transparent;
     height: 200px;
     display: grid;
     place-items: center;
@@ -1333,6 +1358,20 @@ footer .container .row-tc .part2 .menu ul li a {
 
 
 @media (max-width: 991px) {
+    .background-img {
+        background: none;
+    }
+
+    .navs .container .collapse ul .option-button img {
+        display: none;
+    }
+
+    .hero {
+        width: 100%;
+        height: 441px;
+        background-color: #f0f3f4;
+    }
+
     hr {
         margin: 80px 0 0 0;
     }
@@ -1351,6 +1390,10 @@ footer .container .row-tc .part2 .menu ul li a {
     }
 
     .hero .container .part2 {
+        display: none;
+    }
+
+    .hero .container .part1 .text .button img {
         display: none;
     }
 
@@ -1436,7 +1479,6 @@ footer .container .row-tc .part2 .menu ul li a {
 
 
 
-
     .quiz .container .row-main .box2 .image {
         transform: scale(0.6);
     }
@@ -1455,6 +1497,10 @@ footer .container .row-tc .part2 .menu ul li a {
 
     .quiz .container .box3 .txt2 h5 {
         margin: 50px 0 0 0;
+    }
+
+    .quiz .container .row-button .image {
+        display: none;
     }
 
     footer {
