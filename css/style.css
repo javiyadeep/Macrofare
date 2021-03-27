@@ -338,7 +338,6 @@ input:focus {
 }
 
 .navs .container .collapse {
-    margin: 25px 0 10px 0;
     transition: all 0.5s ease-in-out;
 }
 
@@ -1527,6 +1526,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 991px) {
+    .navs .container .collapse {
+        margin: 25px 0 10px 0;
+    }
+
     .guides {
         background: #eef8fd;
     }
