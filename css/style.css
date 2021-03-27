@@ -1622,6 +1622,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
     .news-update .container .part2 {
         text-align: center;
+        margin: 15px 0;
     }
 
     .news-update .subscribe .content .form {
@@ -1659,6 +1660,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     .recipes {
         height: 560px;
     }
+
 
     .recipes .container .main-box .card {
         height: 280px;
@@ -1764,7 +1766,15 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .recipes {
-        height: 1400px;
+        height: 1330px;
+    }
+
+    .recipes .container .row-heading {
+        margin: 0 0 30px 0;
+    }
+
+    .recipes .container .main-box {
+        margin: 20px 0;
     }
 
     .recipes .container .main-box .card {
@@ -1792,12 +1802,12 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
     .quiz {
-        height: 1060px;
+        height: 1040px;
     }
 
     .quiz .container .row-main .box1 {
         padding: 0;
-        margin: 80px 0 0 0;
+        margin: 50px 0 0 0;
     }
 
     .quiz .container .row-main .box1 .txt1 {
@@ -1887,6 +1897,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 @media (max-width: 575px) {
     .hero .container .part1 .text h2 {
         padding: 0 20px;
+        font-size: 30px;
     }
 
     .hero .container .part1 .text p {
@@ -1894,7 +1905,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .get-started {
-        height: 1170px;
+        height: 1110px;
     }
 
     .get-started .container .row-icon {
@@ -1903,6 +1914,19 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
     .news-update .subscribe .content {
         transform: scale(0.7);
+    }
+
+    .get-started .container .row .box .card {
+        height: 150px;
+    }
+
+    .guides {
+        height: 910px;
+    }
+
+    .guides .container .planning .text h3 {
+        font-size: 30px;
+        margin: 30px 0 0 0;
     }
 
     .guides .container .video-content .part1 .image img {
