@@ -1615,7 +1615,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update {
-        height: 2760px;
+        height: 2740px;
     }
 
     .news-update .container .part1 {
@@ -1761,7 +1761,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update {
-        height: 2825px;
+        height: 2790px;
     }
 
     .news-update .subscribe .content {
@@ -1936,6 +1936,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
         padding: 0 20px;
     }
 
+    .news-update {
+        height: 2790px;
+    }
+
     .news-update .container .part1 .image {
         padding: 0 20px;
     }
@@ -1977,11 +1981,19 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     footer {
-        height: 1100px;
+        height: 1030px;
     }
 
     footer .container .row-tc .part2 .menu ul {
         padding: 0 20px;
+    }
+
+    footer .container .box1 {
+        margin: 35px 0 0 0;
+    }
+
+    footer .container .box2 {
+        margin: 20px 0 0 0;
     }
 
     footer .container .box3 {
@@ -2005,7 +2017,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update {
-        height: 2825px;
+        height: 2770px;
     }
 
     .star {
@@ -2032,7 +2044,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update {
-        height: 2790px;
+        height: 2740px;
     }
 
     .guides .container .video-content .part2 .text .text1 {
@@ -2046,6 +2058,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 482px) {
+    .news-update {
+        height: 2740px;
+    }
+
     .news-update .subscribe .content {
         transform: scale(0.7);
     }
@@ -2155,6 +2171,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 379px) {
+    .news-update {
+        height: 2730px;
+    }
+
     .guides {
         height: 855px;
     }
@@ -2164,6 +2184,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 @media (max-width: 361px) {
     .star {
         height: 510px;
+    }
+
+    .news-update {
+        height: 2690px;
     }
 
     .guides {
@@ -2182,6 +2206,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 349px) {
+    .news-update {
+        height: 2660px;
+    }
+
     .guides {
         height: 870px;
     }
@@ -2190,6 +2218,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 345px) {
+    .news-update {
+        height: 2670px;
+    }
+
     .guides {
         height: 860px;
     }
@@ -2205,9 +2237,25 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 
-@media (max-width: 320px) {
+@media (max-width: 342px) {
     .news-update {
         height: 2720px;
+    }
+}
+
+
+
+@media (max-width: 328px) {
+    .news-update {
+        height: 2690px;
+    }
+}
+
+
+
+@media (max-width: 320px) {
+    .news-update {
+        height: 2660px;
     }
 
     .guides {
