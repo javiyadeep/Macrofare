@@ -1525,7 +1525,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .guides {
-        height: 1000px;
+        height: 970px;
     }
 
     .get-started .container .heading {
@@ -1685,6 +1685,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
     .get-started .container .row .box .card {
         height: 160px;
+    }
+
+    .guides .container .video-content .part2 {
+        margin: 100px 0 0 0;
     }
 
     .news-update {
@@ -1912,11 +1916,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     .news-update {
         height: 2825px;
     }
-}
 
-
-
-@media (max-width: 549px) {
     .star {
         height: 450px;
     }
@@ -1930,7 +1930,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 @media (max-width: 495px) {
     .guides {
-        height: 1060px;
+        height: 950px;
     }
 
     .news-update {
@@ -1939,6 +1939,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
     .guides .container .video-content .part2 .text .text1 {
         margin: 70px 0 0 0;
+    }
+
+    .guides .container .video-content .part2 {
+        margin: 40px 0 0 0;
     }
 }
 
@@ -2001,13 +2005,17 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     .guides .container .video-content .part2 .text .text1 {
         margin: 40px 0 0 0;
     }
+
+    .guides .container .video-content .part2 {
+        margin: 10px 0 0 0;
+    }
 }
 
 
 
 @media (max-width: 384px) {
     .guides {
-        height: 1110px;
+        height: 960px;
     }
 
     .news-update {
@@ -2054,7 +2062,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .guides {
-        height: 980px;
+        height: 960px;
     }
 
     .guides .container .video-content .part2 .text .text1 {
