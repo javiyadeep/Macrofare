@@ -1657,7 +1657,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update .subscribe .content {
-        transform: scale(0.8);
+        transform: scale(1);
     }
 
     .recipes {
@@ -1765,7 +1765,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update .subscribe .content {
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
 
     .recipes {
@@ -1916,7 +1916,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update .subscribe .content {
-        transform: scale(0.7);
+        transform: scale(0.8);
     }
 
     .get-started .container .row .box .card {
@@ -2013,7 +2013,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     .news-update .subscribe .content {
-        transform: scale(0.6);
+        transform: scale(0.8);
     }
 }
 
@@ -2043,6 +2043,14 @@ footer .container .row-tc .part2 .menu ul li a:hover {
         margin: 40px 0 0 0;
     }
 }
+
+
+@media (max-width: 482px) {
+    .news-update .subscribe .content {
+        transform: scale(0.7);
+    }
+}
+
 
 @media (max-width: 478px) {
     footer {
@@ -2122,6 +2130,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
     .guides .container .video-content .part2 {
         margin: 10px 0 0 0;
+    }
+
+    .news-update .subscribe .content {
+        transform: scale(0.6);
     }
 }
 
