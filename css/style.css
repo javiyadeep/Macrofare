@@ -200,6 +200,10 @@ table {
 
 
 /* ---- Global Css Start ---- */
+* {
+    scroll-behavior: smooth;
+}
+
 a {
     text-decoration: none;
 }
@@ -2070,7 +2074,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 @media (max-width: 478px) {
     footer {
-        height: 1100px;
+        height: 1050px;
     }
 }
 
@@ -2124,6 +2128,10 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 @media (max-width: 447px) {
+    footer {
+        height: 1040px;
+    }
+
     .guides {
         height: 875px;
     }
@@ -2237,6 +2245,14 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 
 
 
+@media (max-width: 344px) {
+    footer {
+        height: 1050px;
+    }
+}
+
+
+
 @media (max-width: 342px) {
     .news-update {
         height: 2720px;
@@ -2248,6 +2264,14 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 @media (max-width: 328px) {
     .news-update {
         height: 2690px;
+    }
+}
+
+
+
+@media (max-width: 326px) {
+    footer {
+        height: 1070px;
     }
 }
 
@@ -2271,7 +2295,7 @@ footer .container .row-tc .part2 .menu ul li a:hover {
     }
 
     footer {
-        height: 1130px;
+        height: 1080px;
     }
 }
 
