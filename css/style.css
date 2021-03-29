@@ -424,6 +424,16 @@ input:focus {
 
 
 
+
+
+
+
+
+
+
+
+
+
 /* ---- Hero Section Start ---- */
 .hero {
     width: 100%;
@@ -2035,23 +2045,28 @@ footer .container .row-tc .part2 .menu ul li a:hover {
 /* ---- 575 px End ---- */
 
 
+
+
+
+/* ---- 549 px Start ---- */
 @media (max-width: 549px) {
     .guides {
         height: 890px;
     }
-
+    
     .news-update {
         height: 2770px;
     }
-
+    
     .star {
         height: 450px;
     }
-
+    
     .news-update .subscribe .content {
         transform: scale(0.8);
     }
 }
+/* ---- 549 px End ---- */
 
 
 @media (max-width: 542px) {
